@@ -4,7 +4,7 @@
   "description": "nodejs api server",
   "main": "app.js",
   "scripts": {
-    "start": "nodemon app.js",
+    "start": "nodemon bin/www",
     "test": "node_modules/.bin/mocha spec/user.js"
   },
   "repository": {
