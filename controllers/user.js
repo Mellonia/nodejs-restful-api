@@ -92,23 +92,25 @@ addUser = (req, res) => {
 }
 
 updateUser = (req, res) => {
-    const id = parseInt(req.params.id, 10);
-    const name = req.body.name || '';
-    if (!id) {
-        return res.status(400).json({ error: 'Incorrect id' });
-    }
-    if (!name.length) {
-        return res.status(400).json({ error: 'Incorrect name' });
-    }
+    // const id = parseInt(req.params.id, 10);
+    // const name = req.body.name || '';
+    // if (!id) {
+    //     return res.status(400).json({ error: 'Incorrect id' });
+    // }
+    // if (!name.length) {
+    //     return res.status(400).json({ error: 'Incorrect name' });
+    // }
 
-    models.User.update({
-        name, 
-        where: {
-            id
-        }
-    }).then(user => {
-        return res.status(200).json(user);
-    })
+    // models.User.update({
+    //     name: name
+    // }, {
+    //     where: {
+    //         id: id
+    //     }
+    // }).then(user => {
+    //     return res.status(200).json(user);
+    // })
+    res.send();
 }
 
 module.exports = {
