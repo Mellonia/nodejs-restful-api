@@ -19,7 +19,9 @@
   "homepage": "https://github.com/gracieuxyh/nodejs-restful-api#readme",
   "dependencies": {
     "express": "^4.16.4",
-    "nodemon": "^1.18.10"
+    "mysql2": "^1.6.5",
+    "nodemon": "^1.18.10",
+    "sequelize": "^4.43.0"
   },
   "devDependencies": {
     "mocha": "^6.0.2",
