@@ -1,0 +1,24 @@
+{
+  "name": "nodejs-restful-api",
+  "version": "1.0.0",
+  "description": "nodejs api server",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gracieuxyh/nodejs-restful-api.git"
+  },
+  "author": "gracieuxyh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gracieuxyh/nodejs-restful-api/issues"
+  },
+  "homepage": "https://github.com/gracieuxyh/nodejs-restful-api#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "nodemon": "^1.18.10"
+  }
+}
