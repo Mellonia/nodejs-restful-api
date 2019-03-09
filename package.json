@@ -5,7 +5,7 @@
   "main": "app.js",
   "scripts": {
     "start": "nodemon app.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node_modules/.bin/mocha spec/user.js"
   },
   "repository": {
     "type": "git",
@@ -20,5 +20,10 @@
   "dependencies": {
     "express": "^4.16.4",
     "nodemon": "^1.18.10"
+  },
+  "devDependencies": {
+    "mocha": "^6.0.2",
+    "should": "^13.2.3",
+    "supertest": "^3.4.2"
   }
 }
